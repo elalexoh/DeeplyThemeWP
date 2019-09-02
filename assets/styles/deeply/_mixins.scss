@@ -1,0 +1,53 @@
+//Mixins para mediaquerys basados en bootstrap
+@mixin extra_large {
+    @media (min-width: 1200px) { @content; }
+}
+@mixin large {
+    @media (min-width: 992px) { @content; }
+}
+@mixin medium {
+    @media (min-width: 768px) { @content; }
+}
+@mixin small {
+    @media (min-width: 576px) { @content; }
+}
+@mixin extra_small {
+    @media (max-width: 575px) { @content; }
+}
+
+//Mixins customizados 
+//mobile
+@mixin mobile_small {
+    @media (max-width: 320px) { @content; }
+}
+@mixin mobile_medium {
+    @media (max-width: 414px) { @content; }
+}
+@mixin mobile_large {
+    @media (max-width: 576px) { @content; }
+}
+//tablet, others
+@mixin tablet_small {
+    @media (max-width: 768px) { @content; }
+}
+@mixin tablet_large {
+    @media (max-width: 991px) { @content; }
+}
+//desktop
+@mixin desktop_small {
+    @media (max-width: 1024px) { @content; }
+}
+@mixin desktop_medium {
+    @media (max-width: 1200px) { @content; }
+}
+@mixin desktop_large {
+    @media (max-width: 1366px) { @content; }
+}
+@mixin desktop_extra_large {
+    @media (max-width: 1600px) { @content; }
+}
+@mixin desktop_extra_extra_large {
+    @media (max-width: 1920px) { @content; }
+}
+
+

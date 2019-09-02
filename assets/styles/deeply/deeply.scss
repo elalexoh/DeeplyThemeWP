@@ -1,0 +1,28 @@
+@import "deeply/variables"; //Todas las variables, tales como medidas
+@import "deeply/colors"; //La paleta de colores usada en la pagina
+@import "deeply/fonts"; //Fuentes de la pagina 
+@import "deeply/mixins"; //Las funciones de la pagina de existir
+@import "deeply/querys"; //Media querys mas comunes 
+@import "deeply/generales"; //Posee los estilos globales de la pagina
+
+/*
+
+Recomendaciones iniciales
+Estructura deseada
+.nombre_pagina {
+    .neting_nivel_1{
+        .nesting_nivel_2{
+            .nesting_nivel_3{
+               NO CREAR MAS NESTING!!!! 
+            }
+        }
+    }
+    .clase_hija_2{}
+    .clase_hija_3{}
+}
+
+a tener en cuenta
+NUNCA DEBEN HACERSE MAS DE 3 NIVELES DE NESTING
+USAR IMPORTANT EN CASOS DE EXTREMA URGENCIA 
+
+*/
